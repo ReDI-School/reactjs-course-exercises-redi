@@ -1,6 +1,8 @@
 # Practise exercises for students of the React course of ReDI School of Digital Integration in Berlin
 
-## How to use
+## Codesandbox
+
+https://codesandbox.io/s/github/paschalidi/lerna-codesandbox/blob/master/exercises/beginner/conditional-rendering/01
 
 ## Credits
 

@@ -2,6 +2,8 @@
 
 ## How to use
 
+https://codesandbox.io/s/github/paschalidi/lerna-codesandbox/blob/master/exercises/beginner/props/01
+
 ## Credits
 
 Exercises copied from kodiri.com
