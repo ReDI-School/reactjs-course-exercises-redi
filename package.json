@@ -6,16 +6,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "exercises/**/*"
   ],
   "devDependencies": {
     "lerna": "^3.19.0"
   },
   "scripts": {
-    "story": "lerna run story --stream",
     "start": "lerna run start --stream",
-    "prestart": "lerna run build:package --stream",
-    "clean": "rm -rf node_modules && lerna clean --yes",
-    "bootstrap": "lerna bootstrap"
+    "clean": "rm -rf node_modules && lerna clean --yes"
   }
 }
