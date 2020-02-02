@@ -1,5 +1,5 @@
 {
-  "name": "redi-school-exercises",
+  "name": "inputs-04",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -9,11 +9,10 @@
     "enzyme-adapter-react-16": "1.14.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "3.0.1",
-    "rsuite": "^4.0.0"
+    "react-exercises-ui": "^0.0.7",
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
-    "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",

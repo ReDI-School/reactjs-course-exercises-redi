@@ -1,5 +1,5 @@
 {
-  "name": "one",
+  "name": "props-01",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -16,7 +16,7 @@
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start -yy",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

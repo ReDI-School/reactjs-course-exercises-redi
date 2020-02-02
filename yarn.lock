@@ -10919,7 +10919,7 @@ rsuite-utils@^2.2.1:
     lodash "^4.17.5"
     react-lifecycles-compat "^3.0.4"
 
-rsuite@^4.0.0, rsuite@^4.2.1:
+rsuite@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/rsuite/-/rsuite-4.2.1.tgz#23b82a8d91b3c81be104abd6acf2bce2b9641636"
   integrity sha512-7Lfoq8jmHlbgrFyJRNbEhY4uWE3mSZU7OkwQBuCpQq89ohk2kI93+oTp/RllqSyspBKOLLn3744HyINYdOZWng==
