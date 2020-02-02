@@ -1,0 +1,21 @@
+{
+  "name": "redi-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  },
+  "scripts": {
+    "story": "lerna run story --stream",
+    "start": "lerna run start --stream",
+    "prestart": "lerna run build:package --stream",
+    "clean": "rm -rf node_modules && lerna clean --yes",
+    "bootstrap": "lerna bootstrap"
+  }
+}
