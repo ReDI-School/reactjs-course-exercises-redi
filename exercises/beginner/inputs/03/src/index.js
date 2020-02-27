@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import Textarea from "./Textarea";
 import {ExerciseDescription, SolutionArea, inputs, GlobalStyles} from 'react-exercises-ui'
 
-
 function App() {
   return (
     <>

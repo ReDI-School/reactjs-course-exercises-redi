@@ -1,0 +1,17 @@
+{
+  "name": "reduce",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel src/index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  }
+}
