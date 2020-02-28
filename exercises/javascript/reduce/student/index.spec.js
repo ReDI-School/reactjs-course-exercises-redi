@@ -74,5 +74,56 @@ describe('Reduce', function() {
     });
   });
 
+  describe('#booksByAuthors()', function() {
+    it('Given an array of book-objects, return a new object with a property for each category. Each category-property should hold an array of book-objects of that category. Each book-object should only have the title and author properties', function() {
+      var input = [
+        {
+          title: 'Sapiens: A Brief History of Humankind',
+          author: 'Yuval Noah Harari',
+          category: 'nonfiction'
+        },
+        {
+          title: 'A Brief History of Time',
+          author: 'Stephen Hawking',
+          category: 'nonfiction'
+        },
+        {
+          title: 'The Harry Potter series',
+          author: 'J.K. Rowwling',
+          category: 'fiction'
+        },
+        {
+          title: 'A Game of Thrones',
+          author: 'George R.R. Martin',
+          category: 'fiction'
+        }
+      ];
+      var expected = {
+        nonfiction: [
+          {
+            title: 'Sapiens: A Brief History of Humankind',
+            author: 'Yuval Noah Harari'
+          },
+          {
+            title: 'A Brief History of Time',
+            author: 'Stephen Hawking'
+          }
+        ],
+        fiction: [
+          {
+            title: 'The Harry Potter series',
+            author: 'J.K. Rowwling'
+          },
+          {
+            title: 'A Game of Thrones',
+            author: 'George R.R. Martin'
+          }
+        ]
+      };
+      var actual = core.booksByCategory(input);
+
+      assert.deepEqual(actual, expected);
+    });
+  });
 
 });
