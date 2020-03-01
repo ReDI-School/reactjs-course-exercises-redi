@@ -13,7 +13,7 @@ function capitalizeNames (array) {
 // Given an array of people objects,
 // return an array of strings of the names
 function giveMeTheNames (array) {
-  return array.map(({name})=>name)
+ // your code here
 }
 
 // Given an array of people objects,
