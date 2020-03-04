@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import PremierLeagueFixtures from './PremierLeagueFixtures';
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
@@ -18,6 +18,7 @@ it('PremierLeagueFixtures display match results', () => {
   expect(fixtures).toHaveLength(1);
   expect(fixture).toHaveLength(1);
 
+  console.log(fixture.find('.team1').text())
   //and
   expect(fixture.find('.team1').text()).toBe('Tottenham');
   expect(fixture.find('.team2').text()).toBe('Southampton');
