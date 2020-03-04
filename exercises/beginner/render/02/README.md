@@ -2,7 +2,7 @@
 
 ## How to use
 
-https://codesandbox.io/s/github/paschalidi/lerna-codesandbox/blob/master/exercises/beginner/render/02
+https://codesandbox.io/s/github/ReDI-School/reactjs-course-exercises-redi/tree/master/exercises/beginner/render/02
 
 ## Credits
 
