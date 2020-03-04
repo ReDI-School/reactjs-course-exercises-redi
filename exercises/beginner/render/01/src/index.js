@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <GlobalStyles/>
-      <ExerciseDescription {...render.render}/>
+      <ExerciseDescription {...render.ex01}/>
       <SolutionArea component={<Welcome />} />
     </>
   );
