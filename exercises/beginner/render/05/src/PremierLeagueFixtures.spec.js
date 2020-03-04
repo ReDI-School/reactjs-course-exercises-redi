@@ -18,7 +18,6 @@ it('PremierLeagueFixtures display match results', () => {
   expect(fixtures).toHaveLength(1);
   expect(fixture).toHaveLength(1);
 
-  console.log(fixture.find('.team1').text())
   //and
   expect(fixture.find('.team1').text()).toBe('Tottenham');
   expect(fixture.find('.team2').text()).toBe('Southampton');
