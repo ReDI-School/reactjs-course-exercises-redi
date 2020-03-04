@@ -9,7 +9,6 @@ function App() {
       <GlobalStyles/>
       <ExerciseDescription {...render.ex03} />
       <SolutionArea component={BasketballStar} />
-      < />
     </>
   );
 }
