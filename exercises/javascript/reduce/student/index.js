@@ -30,10 +30,19 @@ function luckyNumbers (array) {
   // your code here
 }
 
+// Given an array of book objects with title, author and category properties
+// Return an object with a property for each category
+// Each category-property should contain an array of objects with title and author properties
+
+function booksByCategory (array) {
+  // your code here
+}
+
 module.exports = {
   sum: sum,
   sumAll: sumAll,
   luckyNumbers: luckyNumbers,
   totalVotes: totalVotes,
   iAmRich: iAmRich,
+  booksByCategory: booksByCategory
 };
